@@ -1,0 +1,202 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="~/Assets/css/index.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gabriela">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kurale">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant Upright">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/font-awesome-line-awesome/css/all.min.css" integrity="sha512-dC0G5HMA6hLr/E1TM623RN6qK+sL8sz5vB+Uc68J7cBon68bMfKcvbkg6OqlfGHo1nMmcCxO5AinnRTDhWbWsA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="header">
+        <div class="navbar">
+            <img src="~/Images/navbar/logo.svg" alt="logo" />
+            <ul class="navbar__menu">
+                <li class="navbar__menu__dropdown">
+                    <a href="index.html">home <i class="fa-solid fa-angle-down"></i></a>
+                    <ul class="second__menu">
+                        <li class="second__menu__item">
+                            <a href="/index.html"><span class="bottom__line">Magazine</span></a>
+                        </li>
+                        <li class="second__menu__item">
+                            <a href="/index.html"><span class="bottom__line">Personal</span> </a>
+                        </li>
+                        <li class="second__menu__item">
+                            <a href="/index.html"><span class="bottom__line">Personal Alt</span> </a>
+                        </li>
+                        <li class="second__menu__item">
+                            <a href="/index.html"><span class="bottom__line">Minimal</span> </a>
+                        </li>
+                        <li class="second__menu__item">
+                            <a href="index.html"><span class="bottom__line">Classic</span> </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navbar__menu__dropdown bottom__line">
+                    <a href="/index.html">Lifestyle</a>
+                </li>
+                <li class="navbar__menu__dropdown bottom__line">
+                    <a href="/index.html">Technology</a>
+                </li>
+                <li class="navbar__menu__dropdown bottom__line">
+                    <a href="/index.html">pages <i class="fa-solid fa-angle-down"></i></a>
+                    <ul class="second__menu">
+                        <li class="second__menu__item">
+                            <a href="/index.html"><span class="bottom__line">Category</span></a>
+                        </li>
+                        <li class="second__menu__item">
+                            <a href="/index.html"><span class="bottom__line">Blog Single</span> </a>
+                        </li>
+                        <li class="second__menu__item">
+                            <a href="/index.html"><span class="bottom__line">Blog Single Alt</span> </a>
+                        </li>
+                        <li class="second__menu__item">
+                            <a href="/index.html"><span class="bottom__line">About</span> </a>
+                        </li>
+                        <li class="second__menu__item">
+                            <a href="index.html"><span class="bottom__line">Contact</span> </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navbar__menu__dropdown bottom__line">
+                    <a href="index.html">Contact</a>
+                </li>
+                <div class="header__right">
+                    <ul>
+                        <li class="ms-3">
+                            <a href="/index.html"><i class="fa-brands fa-facebook"></i></a>
+                        </li>
+                        <li class="ms-3">
+                            <a href="/index.html"><i class="fa-brands fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="/index.html"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="/index.html"><i class="fa-brands fa-pinterest"></i></a>
+                        </li>
+                        <li>
+                            <a href="/index.html"><i class="fa-brands fa-linkedin"></i></a>
+                        </li>
+                        <li>
+                            <a href="/index.html"><i class="fa-brands fa-youtube"></i></a>
+                        </li>
+                    </ul>
+                    <div class="header__button">
+                        <button class="icon__button me-2">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                        <button class="icon__button">
+                            <i class="fa-solid fa-bars"></i>
+                        </button>
+                    </div>
+                </div>
+        </div>
+    </nav>
+    @RenderBody()
+    <footer class="footer" id="footer__img__fixed">
+        <div class="container__footer">
+            <div class="row reveal">
+                <div class="col-lg-4 padding__right__left w__50__resp">
+                    <h2 class="footer__h2 mb-4"><span class="span__color">ABOUT US</span></h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text since has five...</p>
+                    <div clas="footer__content">
+                        <ul>
+                            <li><i class="fa-solid fa-house icon__color"></i> 15 Cliff St, New York NY 10038, USA</li>
+                            <li><i class="fa-solid fa-phone icon__color"></i> +91 234 567 8765</li>
+                            <li><i class="fa-solid fa-envelope icon__color"></i> mail@example.com</li>
+                        </ul>
+                        <div class="social__media mt-4">
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 padding__right__left w__50__resp">
+                    <h2 class="footer__h2 mb-4"><span class="span__color">POPULAR CATEGORIES</span></h2>
+                    <div clas="footer__content">
+                        <ul>
+                            <li class="border__bottom__dashed"><i class="fa-solid fa-angles-right"></i> Technology<span class="right__side">(05)</span></li>
+                            <li class="border__bottom__dashed"><i class="fa-solid fa-angles-right"></i> Gadget<span class="right__side">(06)</span></li>
+                            <li class="border__bottom__dashed"><i class="fa-solid fa-angles-right"></i> Health<span class="right__side">(15)</span></li>
+                            <li class="border__bottom__dashed"><i class="fa-solid fa-angles-right"></i> Travel<span class="right__side">(18)</span></li>
+                            <li class="border__bottom__dashed"><i class="fa-solid fa-angles-right"></i> Food<span class="right__side">(22)</span></li>
+                            <li class="border__bottom__dashed"><i class="fa-solid fa-angles-right"></i> Architecture<span class="right__side">(07)</span></li>
+                            <li class="border__bottom__dashed"><i class="fa-solid fa-angles-right"></i> Policy<span class="right__side">(11)</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 padding__right__left align__center__resp">
+                    <h2 class="footer__h2 mb-4"><span class="span__color">POPULAR POST</span></h2>
+                    <div clas="row">
+                        <div class="col-lg-12 display__flex mb-4">
+                            <div class="col-lg-4 overflow-hidden" style="border-radius: 7px;">
+                                <a href=""><img src="~/Images/footer/health2.jpg"></a>
+                            </div>
+                            <div class="col-lg-8">
+                                <h4>Santino loganne legan an year old resident...</h4>
+                                <span class="span__color__2"><i class="fa-solid fa-clock"></i> 25 Jan, 2022</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 display__flex mb-4">
+                            <div class="col-lg-4 overflow-hidden" style="border-radius: 7px;">
+                                <a href=""><img src="~/Images/footer/health3.jpg"></a>
+                            </div>
+                            <div class="col-lg-8">
+                                <h4>Santino loganne legan an year old resident...</h4>
+                                <span class="span__color__2"><i class="fa-solid fa-clock"></i> 25 Jan, 2022</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 display__flex mb-4">
+                            <div class="col-lg-4 overflow-hidden" style="border-radius: 7px;">
+                                <a href=""><img src="~/Images/footer/health4.jpg"></a>
+                            </div>
+                            <div class="col-lg-8">
+                                <h4>Santino loganne legan an year old resident...</h4>
+                                <span class="span__color__2"><i class="fa-solid fa-clock"></i> 25 Jan, 2022</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="footer__copyrights">
+            <div class="container__copyrights">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p class="footer__p">Copyright © 2022 All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="up__button">
+        <a href="#" class="up__button__icon">
+            <i class="fa-sharp fa-solid fa-angles-up"></i>
+        </a>
+    </div>
+    <link href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.6/swiper-bundle.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="~/Assets/js/tab_menu.js"></script>
+    <script src="~/Assets/js/up_button.js"></script>
+    <script src="~/Assets/js/trend_slider.js"></script>
+    <script src="~/Assets/js/load_more.js"></script>
+    <script src="~/Assets/js/news_detail_carousel.js"></script>
+    @RenderSection("Scripts",required:false);
+</body>
+</html>
+<script 

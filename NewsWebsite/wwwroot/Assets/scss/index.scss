@@ -1,0 +1,111 @@
+@import "./_navbar.scss";
+@import "./_footer.scss";
+@import "./_feature.scss";
+@import "./_latest_news.scss";
+@import "./_technology_news.scss";
+@import "./_other_category_news.scss";
+@import "./_swipper_slider.scss";
+@import "./_news_detail.scss";
+@import "./_variables.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.add__content__area {
+    position: relative;
+    .add__container {
+        padding-bottom: 60px;
+        margin-left: 13%;
+        margin-right: 13%;
+        & img {
+            display: inline-block;
+            border: 1px solid #eeeeee;
+            padding: 15px 20px;
+            border-radius: 10px;
+        }
+    }
+   
+}
+
+.up__button {
+    display: none;
+    position: relative;
+    border-radius: 5px;
+    margin-bottom: 45px;
+    bottom: 50px;
+    background: linear-gradient(to right,  #FE4F70, #FFA387, #FFA387,  #FE4F70);
+    overflow: hidden;
+    background-size: 200%;
+    background-position: left;
+    height: 40px;
+    font-size: 15px;
+    position: fixed;
+    line-height: 35px;
+    right: 0.5px;
+    text-align: center;
+    z-index: 50;
+    width: 45px;
+    transition: 0.3s;
+    cursor: pointer;
+    &:hover {
+        background-position: right;
+    }
+  
+    &__icon {
+      position: absolute;
+      text-decoration: none;
+      font-size: 25px;
+      color: white;
+      top: 4px;
+      right: 11.5px;
+      font-weight: 500;
+      transition: 0.3s;
+      &:hover {
+        color: white;
+      }
+    }
+   
+  }
+
+  .mySlides {
+    display: none;
+    box-shadow: 2px 7px 5px 7px rgba(136, 136, 136, 0.5);
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.prev__angel, .next__angel {
+    cursor: pointer;
+    position: absolute;
+    top: 15%;
+    width: auto;
+    padding: 8px;
+    margin-top: -22px;
+    color: $color__white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next__angel {
+    right: 12px;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev__angel:hover, .next__angel:hover {
+    opacity: 0.75;
+    background-color: #f1f1f1;
+    color: $color__black;
+}
+
+

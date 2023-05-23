@@ -1,0 +1,186 @@
+@import "./_variables.scss";
+
+.header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: rgba(255, 255, 255, 0.9);
+    position: fixed;
+    right: 0;
+    left: 0;
+    color: $color__blue;
+    z-index: 99;
+    margin: 0;
+    transition: 0.4s;
+    box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.15);
+
+    #logout {
+        font-size: 14px;
+        font-weight: 500;
+        color: $color__blue;
+        cursor: pointer;
+        transition: 0.35s;
+
+        &:hover {
+            color: $background__color__red;
+        }
+    }
+
+    .navbar {
+        height: 75px;
+        display: flex;
+        margin-left: 13%;
+        margin-right: 13%;
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+
+
+        img {
+            width: 120px;
+        }
+
+
+        &__menu {
+            font-family: $font__family__poppins;
+            font-weight: 500;
+            margin-top: 0;
+            margin-bottom: 0;
+
+            .second__menu {
+                position: absolute;
+                opacity: 0;
+                border-radius: 10px;
+                background-color: white;
+                overflow: auto;
+                top: 85%;
+                box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.15);
+                left: -3.5rem;
+                transition: 0.5s ease-in-out;
+                transition-delay: 0.1s;
+
+                &__item {
+                    font-family: $font__family__poppins;
+                    font-weight: 500;
+                    display: block;
+                    width: 210px;
+                    height: auto;
+                    text-transform: capitalize;
+                    border-bottom: 0.5px solid rgb(232, 232, 232);
+                    a {
+                        display: block;
+                        margin: 0;
+                        padding: 8px 26px;
+                        color: #737373;
+                        line-height: 19px;
+
+                        span {
+                            font-size: 14px;
+                            font-weight: 500;
+                            transition: 0.3s;
+
+                            &:hover {
+                                color: $background__color__red;
+                            }
+                        }
+                    }
+                }
+            }
+
+            &__dropdown {
+                position: relative;
+                display: flex;
+                display: inline;
+                font-family: $font__family__poppins;
+                text-transform: uppercase;
+                margin-right: 1.5rem;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 22px;
+                padding: 2rem 0;
+               a {
+                    text-decoration: none;
+                    color: $color__blue;
+                    transition: 0.3s;
+                    &:hover {
+                        color: $background__color__red;
+                    }
+
+                    span {
+                        color: $color__blue;
+                    }
+                }
+            }
+        }
+    }
+
+    .navbar__menu__dropdown:hover .second__menu {
+        opacity: 1;
+        z-index: 2;
+    }
+
+    .navbar__menu__dropdown:hover .second__menu__shop {
+        opacity: 1;
+    }
+
+    .bottom__line {
+        display: inline-block;
+        color: $background__color__red;
+        text-decoration: none;
+    }
+
+    .bottom__line::after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 1px;
+        background: $background__color__red;
+        transition: width 0.3s;
+    }
+
+
+    .bottom__line:hover::after {
+        width: 100%;
+    }
+
+    a {
+        color: $color__blue;
+        text-decoration: none;
+        transition: 0.35s;
+
+        &:hover {
+            color: $background__color__red;
+        }
+    }
+    .header__right {
+        display: inline-block;
+        margin-left: 75px;
+        & ul {
+            display: inline-flex;
+            list-style: none;
+            & li {
+                margin-left: 15px;
+            }
+        }
+    & .header__button {
+    display: inline-block;
+    margin-left: 50px;
+    & .icon__button {
+        color: white;
+        border: none;
+        border-radius: 50%;
+        background: linear-gradient(to right,  #FE4F70, #FFA387, #FFA387,  #FE4F70);
+        overflow: hidden;
+        background-size: 200%;
+        background-position: left;
+        height: 37px;
+        width: 37px;
+        transition: 0.35s;
+        cursor: pointer;
+        &:hover {
+            background-position: right;
+        }
+    }
+    }
+}
+    
+}
+

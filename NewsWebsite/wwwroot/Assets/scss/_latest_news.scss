@@ -1,0 +1,138 @@
+@import "./_variables.scss";
+
+.latest__news {
+    position: relative;
+    .container__latest__news {
+        padding-top: 10px;
+        padding-bottom: 40px;
+        margin-left: 13%;
+        margin-right: 13%;
+    }
+    .block__title {
+        border-bottom: 2px dotted $color__red;
+        font-size: 14px;
+        line-height: 100%;
+        text-transform: uppercase;
+        margin: 0 0 30px;
+        & span {
+            left:-1%;
+            background-color: $background__color__red;
+            color: #fff;
+            line-height: 38px;
+            padding: 10px 15px;
+            top: 1px;
+            border-radius: 10px 10px 0 0px;
+            position: relative;
+        }
+    }
+    .latest__content {
+        max-width: 100%;
+        position: relative;
+        overflow: hidden;
+        opacity: 1;
+        border-radius: 6px;
+        transform:scale(1);
+        border-radius: 4px;
+        transition: 0.5s;
+        &:hover {
+            transform:scale(1.1);
+            opacity: 0.85;
+        }
+        
+    }
+    .news__img {
+        display: block;
+        width: 100%;
+    }
+    .position__badge {
+        font-family: $font__family__poppins;
+        padding: 10px;
+        z-index: 1;
+        position: absolute;
+        bottom: 0;
+        display: block;
+        top: 0;
+        & h2 {
+            line-height: 20px;
+        }
+        & .post__badge {
+            text-decoration: none;
+            font-weight: 700;
+            color: $color__white;
+            border: none;
+            font-size: 10px;
+            border-radius: 4px;
+            text-transform: uppercase;
+            background: linear-gradient(to right,  #FE4F70, #FFA387, #FFA387,  #FE4F70);
+            overflow: hidden;
+            background-size: 200%;
+            background-position: left;
+            line-height: 10px;
+            padding: 5px 5px;
+            transition: 0.35s;
+            cursor: pointer;
+            &:hover {
+                background-position: right;
+            }
+        }
+        
+    }
+    .post__author {
+        position: absolute;
+        left: 10px;
+        bottom: 10px;
+        line-height: 20px;
+        text-decoration: none;
+        background: $background__color__red;
+        padding: 4px 6px;
+        border-radius: 4px;
+        color: $color__white;
+        border: 0;
+        margin-right: 5px;
+        transition: 0.35s;
+        &:hover{
+            background-color: $background__color__red;
+        }
+        & a {
+            text-decoration: none;
+            color: $color__white;
+            font-weight: 600;
+            font-size: 12px;
+        }
+    }
+    h2 {
+        line-height: 18px;
+    }
+    .post__title {
+        font-size: 16px;
+        text-decoration: none;
+        color: $color__black;
+        font-weight: 700;
+        transition: 0.35s;
+        &:hover {
+            color: $color__red;
+        }
+    }
+    .post__date, .post__view {
+        line-height: 20px;
+        text-decoration: none;
+        color: $color__dark__gray;
+        border: 0;
+        margin-right: 5px;
+        transition: 0.35s;
+        & i {
+            color: $color__red;
+        }
+        
+        & a {
+            text-decoration: none;
+            color: $color__dark__gray;
+            font-weight: 600;
+            font-size: 13px;
+        }
+    }
+    .post__date {
+        padding-right: 10px;
+        border-right: 1px solid $color__light__gray;
+    }
+}

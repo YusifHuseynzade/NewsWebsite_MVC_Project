@@ -1,0 +1,245 @@
+@import "./_variables.scss";
+
+.other__news {
+    position: relative;
+    .container__other__news {
+        padding-bottom: 40px;
+        margin-left: 13%;
+        margin-right: 13%;
+    }
+    
+    .block__title__travel {
+        border-bottom: 2px dotted $color__dark__blue;
+        font-size: 14px;
+        line-height: 100%;
+        text-transform: uppercase;
+        margin: 0;
+        & span {
+            left:-1%;
+            background-color: $background__dark__blue;
+            color: $color-white;
+            line-height: 38px;
+            padding: 10px 15px;
+            top: 1px;
+            border-radius: 10px 10px 0 0px;
+            position: relative;
+        }
+    }
+    .block__title__lifestyle {
+        border-bottom: 2px dotted $color__light__green;
+        font-size: 14px;
+        line-height: 100%;
+        text-transform: uppercase;
+        margin: 0;
+        & span {
+            left:-1%;
+            background-color: $background__light__green;
+            color: $color-white;
+            line-height: 38px;
+            padding: 10px 15px;
+            top: 1px;
+            border-radius: 10px 10px 0 0px;
+            position: relative;
+        }
+    }
+    .block__title__health {
+        border-bottom: 2px dotted $color__purple;
+        font-size: 14px;
+        line-height: 100%;
+        text-transform: uppercase;
+        margin: 0;
+        & span {
+            left:-1%;
+            background-color: $background__color__purple;
+            color: $color-white;
+            line-height: 38px;
+            padding: 10px 15px;
+            top: 1px;
+            border-radius: 10px 10px 0 0px;
+            position: relative;
+        }
+    }
+
+    .news__content {
+        max-width: 100%;
+        position: relative;
+        overflow: hidden;
+        border-radius: 6px;
+        transform:scale(1);
+        border-radius: 4px;
+        transition: 0.5s;
+        &:hover {
+            transform:scale(1.1);
+        }
+        
+    }
+    .news__content::before {
+        content: '';
+        z-index: 10;
+        width: 100%;
+        height: 100%;
+        display: block;
+        position: absolute;
+        background:linear-gradient(to bottom,  rgba(255,255,255,0) 10%, rgba(0, 0, 0, 0.9) 100%);
+      }
+    .right__img__size {
+        display: block;
+        width: 100%;
+    }
+    h2 {
+        font-family: $font__family__poppins;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .news__content__top {
+        font-family: $font__family__poppins;
+        padding: 30px;
+        z-index: 1;
+        position: absolute;
+        bottom: 0;
+        display: block;
+       
+        h2 {
+            font-family: $font__family__poppins;
+            font-size: 18px;
+            line-height: 24px;
+        }
+        & .post__title {
+            text-decoration: none;
+            color: $color__white;
+            font-weight: 700;
+        }
+        & .post__date, .post__view {
+            position: static;
+            line-height: 20px;
+            text-decoration: none;
+            background: rgba(255, 255, 255, 0.3);
+            padding: 4px 6px;
+            border-radius: 4px;
+            border: 0;
+            margin-right: 5px;
+            transition: 0.35s;
+            &:hover{
+                background-color: $background__color__red;
+            }
+            & a {
+                text-decoration: none;
+                color: $color__white;
+                font-weight: 600;
+                font-size: 13px;
+               
+            }
+        }
+        .post__date i {
+            color: $color-white;
+        }
+        .post__view i {
+            color: $color-white;
+        }
+    }
+
+    .post__date__travel, .post__view__travel {
+        position: static;
+        line-height: 20px;
+        text-decoration: none;
+        padding: 4px 6px;
+        border-radius: 4px;
+        border: 0;
+        margin-right: 5px;
+        transition: 0.35s;
+        
+        & a {
+            text-decoration: none;
+            color: $color__dark__gray;
+            font-weight: 600;
+            font-size: 13px;
+           
+        }
+    }
+    .post__date__travel i {
+        color: $color__dark__blue;
+    }
+    .post__view__travel i {
+        color: $color__dark__blue;
+    }
+    .post__date__lifestyle, .post__view__lifestyle {
+        position: static;
+        line-height: 20px;
+        text-decoration: none;
+        padding: 4px 6px;
+        border-radius: 4px;
+        border: 0;
+        margin-right: 5px;
+        transition: 0.35s;
+        
+        & a {
+            text-decoration: none;
+            color: $color__dark__gray;
+            font-weight: 600;
+            font-size: 13px;
+           
+        }
+    }
+    .post__date__lifestyle i {
+        color: $color__light__green;
+    }
+    .post__view__lifestyle i {
+        color: $color__light__green;
+    }
+    .post__date__health, .post__view__health {
+        position: static;
+        line-height: 20px;
+        text-decoration: none;
+        padding: 4px 6px;
+        border-radius: 4px;
+        border: 0;
+        margin-right: 5px;
+        transition: 0.35s;
+        
+        & a {
+            text-decoration: none;
+            color: $color__dark__gray;
+            font-weight: 600;
+            font-size: 13px;
+           
+        }
+    }
+    .post__date__health i {
+        color: $color__purple;
+    }
+    .post__view__health i {
+        color: $color__purple;
+    }
+    .small__title {
+        font-family: $font__family__poppins;
+        font-size: 14px;
+        line-height: 20px;
+        text-decoration: none;
+        color: $color__black;
+        font-weight: 700;
+        transition: 0.35s;
+        &:hover {
+            color: $color__red;
+        }
+    }
+    .other__news__content {
+        max-width: 100%;
+        position: relative;
+        overflow: hidden;
+        opacity: 1;
+        border-radius: 6px;
+        transform:scale(1);
+        border-radius: 4px;
+        transition: 0.5s;
+        &:hover {
+            transform:scale(1.1);
+            opacity: 0.85;
+        }
+        
+    }
+    .news__img {
+        display: block;
+        width: 100%;
+    }
+    
+}

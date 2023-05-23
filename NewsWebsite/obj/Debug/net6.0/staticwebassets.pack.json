@@ -1,0 +1,1781 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\NewsWebsite.bundle.scp.css",
+      "PackagePath": "staticwebassets\\NewsWebsite.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Assets\\css\\index.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\index.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Assets\\css\\index.css.map",
+      "PackagePath": "staticwebassets\\Assets\\css\\index.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Assets\\css\\style2.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\style2.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Assets\\js\\load_more.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\load_more.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Assets\\js\\news_detail_carousel.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\news_detail_carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Assets\\js\\tab_menu.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\tab_menu.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Assets\\js\\trend_slider.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\trend_slider.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Assets\\js\\up_button.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\up_button.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Assets\\scss\\_feature.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\_feature.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Assets\\scss\\_footer.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Assets\\scss\\_latest_news.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\_latest_news.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Assets\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Assets\\scss\\_news_detail.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\_news_detail.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Assets\\scss\\_other_category_news.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\_other_category_news.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Assets\\scss\\_swipper_slider.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\_swipper_slider.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Assets\\scss\\_technology_news.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\_technology_news.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Assets\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Assets\\scss\\index.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\index.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\add_content\\ad-content-one.jpg",
+      "PackagePath": "staticwebassets\\Images\\add_content\\ad-content-one.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\feature\\gadget2.jpg",
+      "PackagePath": "staticwebassets\\Images\\feature\\gadget2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\feature\\gadget4.jpg",
+      "PackagePath": "staticwebassets\\Images\\feature\\gadget4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\feature\\health1.jpg",
+      "PackagePath": "staticwebassets\\Images\\feature\\health1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\feature\\travel2.jpg",
+      "PackagePath": "staticwebassets\\Images\\feature\\travel2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\footer\\footer_bg.jpg",
+      "PackagePath": "staticwebassets\\Images\\footer\\footer_bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\footer\\health2.jpg",
+      "PackagePath": "staticwebassets\\Images\\footer\\health2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\footer\\health3.jpg",
+      "PackagePath": "staticwebassets\\Images\\footer\\health3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\footer\\health4.jpg",
+      "PackagePath": "staticwebassets\\Images\\footer\\health4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\img_detail\\featured-lg.jpg",
+      "PackagePath": "staticwebassets\\Images\\img_detail\\featured-lg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\img_detail\\wave.svg",
+      "PackagePath": "staticwebassets\\Images\\img_detail\\wave.svg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\latest_news\\architecture3.jpg",
+      "PackagePath": "staticwebassets\\Images\\latest_news\\architecture3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\latest_news\\food3.jpg",
+      "PackagePath": "staticwebassets\\Images\\latest_news\\food3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\latest_news\\gadget2.jpg",
+      "PackagePath": "staticwebassets\\Images\\latest_news\\gadget2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\latest_news\\game1.jpg",
+      "PackagePath": "staticwebassets\\Images\\latest_news\\game1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\latest_news\\health4 (1).jpg",
+      "PackagePath": "staticwebassets\\Images\\latest_news\\health4 (1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\latest_news\\health4.jpg",
+      "PackagePath": "staticwebassets\\Images\\latest_news\\health4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\latest_news\\health5.jpg",
+      "PackagePath": "staticwebassets\\Images\\latest_news\\health5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\latest_news\\travel4.jpg",
+      "PackagePath": "staticwebassets\\Images\\latest_news\\travel4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\latest_news\\travel5 (1).jpg",
+      "PackagePath": "staticwebassets\\Images\\latest_news\\travel5 (1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\latest_news\\travel5.jpg",
+      "PackagePath": "staticwebassets\\Images\\latest_news\\travel5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\lifestyle_news\\architecture1.jpg",
+      "PackagePath": "staticwebassets\\Images\\lifestyle_news\\architecture1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\lifestyle_news\\architecture2.jpg",
+      "PackagePath": "staticwebassets\\Images\\lifestyle_news\\architecture2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\lifestyle_news\\architecture3.jpg",
+      "PackagePath": "staticwebassets\\Images\\lifestyle_news\\architecture3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\lifestyle_news\\food1.jpg",
+      "PackagePath": "staticwebassets\\Images\\lifestyle_news\\food1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\lifestyle_news\\food2.jpg",
+      "PackagePath": "staticwebassets\\Images\\lifestyle_news\\food2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\lifestyle_news\\health1.jpg",
+      "PackagePath": "staticwebassets\\Images\\lifestyle_news\\health1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\lifestyle_news\\health2.jpg",
+      "PackagePath": "staticwebassets\\Images\\lifestyle_news\\health2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\lifestyle_news\\travel1.jpg",
+      "PackagePath": "staticwebassets\\Images\\lifestyle_news\\travel1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\lifestyle_news\\travel2.jpg",
+      "PackagePath": "staticwebassets\\Images\\lifestyle_news\\travel2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\lifestyle_news\\travel5.jpg",
+      "PackagePath": "staticwebassets\\Images\\lifestyle_news\\travel5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\navbar\\logo.svg",
+      "PackagePath": "staticwebassets\\Images\\navbar\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\popular__news\\food1.jpg",
+      "PackagePath": "staticwebassets\\Images\\popular__news\\food1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\popular__news\\gadget3.jpg",
+      "PackagePath": "staticwebassets\\Images\\popular__news\\gadget3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\popular__news\\health4.jpg",
+      "PackagePath": "staticwebassets\\Images\\popular__news\\health4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\popular__news\\robot5.jpg",
+      "PackagePath": "staticwebassets\\Images\\popular__news\\robot5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\popular__news\\travel5.jpg",
+      "PackagePath": "staticwebassets\\Images\\popular__news\\travel5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\technology_news\\gadget1.jpg",
+      "PackagePath": "staticwebassets\\Images\\technology_news\\gadget1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\technology_news\\gadget2.jpg",
+      "PackagePath": "staticwebassets\\Images\\technology_news\\gadget2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\technology_news\\gadget3.jpg",
+      "PackagePath": "staticwebassets\\Images\\technology_news\\gadget3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\technology_news\\gadget4.jpg",
+      "PackagePath": "staticwebassets\\Images\\technology_news\\gadget4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\technology_news\\gadget5.jpg",
+      "PackagePath": "staticwebassets\\Images\\technology_news\\gadget5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\technology_news\\robot1.jpg",
+      "PackagePath": "staticwebassets\\Images\\technology_news\\robot1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\technology_news\\robot2.jpg",
+      "PackagePath": "staticwebassets\\Images\\technology_news\\robot2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\technology_news\\robot3.jpg",
+      "PackagePath": "staticwebassets\\Images\\technology_news\\robot3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\technology_news\\robot4.jpg",
+      "PackagePath": "staticwebassets\\Images\\technology_news\\robot4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\technology_news\\robot5.jpg",
+      "PackagePath": "staticwebassets\\Images\\technology_news\\robot5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\trending_news\\gadget1.jpg",
+      "PackagePath": "staticwebassets\\Images\\trending_news\\gadget1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\trending_news\\gadget2.jpg",
+      "PackagePath": "staticwebassets\\Images\\trending_news\\gadget2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\trending_news\\gadget3.jpg",
+      "PackagePath": "staticwebassets\\Images\\trending_news\\gadget3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\trending_news\\gadget4.jpg",
+      "PackagePath": "staticwebassets\\Images\\trending_news\\gadget4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\trending_news\\health1.jpg",
+      "PackagePath": "staticwebassets\\Images\\trending_news\\health1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\trending_news\\health2.jpg",
+      "PackagePath": "staticwebassets\\Images\\trending_news\\health2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\trending_news\\health3.jpg",
+      "PackagePath": "staticwebassets\\Images\\trending_news\\health3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\trending_news\\health4.jpg",
+      "PackagePath": "staticwebassets\\Images\\trending_news\\health4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\trending_news\\health5.jpg",
+      "PackagePath": "staticwebassets\\Images\\trending_news\\health5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\trending_news\\travel1.jpg",
+      "PackagePath": "staticwebassets\\Images\\trending_news\\travel1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\trending_news\\travel2.jpg",
+      "PackagePath": "staticwebassets\\Images\\trending_news\\travel2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\trending_news\\travel3.jpg",
+      "PackagePath": "staticwebassets\\Images\\trending_news\\travel3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\Images\\trending_news\\travel4.jpg",
+      "PackagePath": "staticwebassets\\Images\\trending_news\\travel4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\appsettings.Development.json",
+      "PackagePath": "staticwebassets\\appsettings.Development.json"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\appsettings.json",
+      "PackagePath": "staticwebassets\\appsettings.json"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\images\\big\\Thumbs.db",
+      "PackagePath": "staticwebassets\\manage\\assets\\images\\big\\Thumbs.db"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\images\\big\\img1.jpg",
+      "PackagePath": "staticwebassets\\manage\\assets\\images\\big\\img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\images\\custom-select.png",
+      "PackagePath": "staticwebassets\\manage\\assets\\images\\custom-select.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\manage\\assets\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\images\\logo-icon.png",
+      "PackagePath": "staticwebassets\\manage\\assets\\images\\logo-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\images\\logo-light-icon.png",
+      "PackagePath": "staticwebassets\\manage\\assets\\images\\logo-light-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\images\\logo-light-text.png",
+      "PackagePath": "staticwebassets\\manage\\assets\\images\\logo-light-text.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\images\\logo-text.png",
+      "PackagePath": "staticwebassets\\manage\\assets\\images\\logo-text.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\images\\users\\1.jpg",
+      "PackagePath": "staticwebassets\\manage\\assets\\images\\users\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\images\\users\\2.jpg",
+      "PackagePath": "staticwebassets\\manage\\assets\\images\\users\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\images\\users\\3.jpg",
+      "PackagePath": "staticwebassets\\manage\\assets\\images\\users\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\images\\users\\4.jpg",
+      "PackagePath": "staticwebassets\\manage\\assets\\images\\users\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\images\\users\\5.jpg",
+      "PackagePath": "staticwebassets\\manage\\assets\\images\\users\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\images\\users\\6.jpg",
+      "PackagePath": "staticwebassets\\manage\\assets\\images\\users\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\images\\users\\7.jpg",
+      "PackagePath": "staticwebassets\\manage\\assets\\images\\users\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\images\\users\\8.jpg",
+      "PackagePath": "staticwebassets\\manage\\assets\\images\\users\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\bower.json",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\bower.json"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\c3.css",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\c3.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\c3.min.css",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\c3.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\component.json",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\component.json"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\extensions\\chart-bubble\\c3.css",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\extensions\\chart-bubble\\c3.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\extensions\\chart-bubble\\index.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\extensions\\chart-bubble\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\extensions\\exporter\\config.json",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\extensions\\exporter\\config.json"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\extensions\\exporter\\test.png",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\extensions\\exporter\\test.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\css\\c3.css",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\css\\c3.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\css\\index.css",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\css\\index.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\css\\style.css",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\data\\c3_test.json",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\data\\c3_test.json"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\data\\c3_test_2.json",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\data\\c3_test_2.json"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\data\\c3_test_3.json",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\data\\c3_test_3.json"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\index.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\api_axis_label.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\api_axis_label.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\api_axis_range.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\api_axis_range.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\api_category.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\api_category.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\api_data_colors.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\api_data_colors.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\api_flow.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\api_flow.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\api_flow_timeseries.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\api_flow_timeseries.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\api_legend.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\api_legend.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\api_tooltip_show.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\api_tooltip_show.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\api_transform.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\api_transform.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\api_xgrid_lines.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\api_xgrid_lines.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\api_ygrid_lines.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\api_ygrid_lines.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\area_zerobased.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\area_zerobased.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\axes_padding.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\axes_padding.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\axes_range.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\axes_range.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\axes_x_extent.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\axes_x_extent.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\axes_x_localtime.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\axes_x_localtime.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\axes_x_range_timeseries.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\axes_x_range_timeseries.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\axes_x_tick_culling.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\axes_x_tick_culling.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\axes_x_tick_fit.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\axes_x_tick_fit.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\axes_x_tick_rotate.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\axes_x_tick_rotate.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\axes_x_tick_values.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\axes_x_tick_values.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\axes_y2.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\axes_y2.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\axes_y_default.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\axes_y_default.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\bar_zerobased.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\bar_zerobased.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\bindto.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\bindto.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\categorized.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\categorized.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\chart_area.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\chart_area.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\chart_area_spline.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\chart_area_spline.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\chart_area_spline_stacked.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\chart_area_spline_stacked.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\chart_area_stacked.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\chart_area_stacked.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\chart_area_step.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\chart_area_step.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\chart_area_step_stacked.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\chart_area_step_stacked.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\chart_bar.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\chart_bar.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\chart_bar_space.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\chart_bar_space.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\chart_bar_stacked.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\chart_bar_stacked.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\chart_combination.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\chart_combination.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\chart_donut.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\chart_donut.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\chart_gauge.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\chart_gauge.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\chart_pie.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\chart_pie.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\chart_pie_sort.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\chart_pie_sort.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\chart_scatter.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\chart_scatter.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\chart_spline.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\chart_spline.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\chart_step.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\chart_step.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\chart_step_category.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\chart_step_category.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\custom_x_categorized.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\custom_x_categorized.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\custom_x_scale.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\custom_x_scale.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\custom_xs_scale.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\custom_xs_scale.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\data_columned.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\data_columned.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\data_hide.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\data_hide.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\data_json.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\data_json.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\data_label.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\data_label.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\data_label_format.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\data_label_format.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\data_load.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\data_load.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\data_load_timeseries.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\data_load_timeseries.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\data_region.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\data_region.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\data_region_timeseries.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\data_region_timeseries.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\data_rowed.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\data_rowed.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\data_url.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\data_url.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\different_category_datasets.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\different_category_datasets.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\domain_y.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\domain_y.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\element.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\element.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\emptydata.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\emptydata.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\grid_focus.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\grid_focus.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\grid_x_lines.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\grid_x_lines.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\grid_x_lines_timeseries.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\grid_x_lines_timeseries.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\grids.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\grids.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\grids_timeseries.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\grids_timeseries.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\interaction_enabled.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\interaction_enabled.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\legend.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\legend.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\padding.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\padding.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\padding_update.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\padding_update.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\plugin.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\plugin.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\point_r.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\point_r.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\point_show.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\point_show.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\regions.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\regions.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\regions_timeseries.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\regions_timeseries.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\requirejs.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\requirejs.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\selection.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\selection.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\simple.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\simple.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\subchart.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\subchart.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\subchart_onbrush.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\subchart_onbrush.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\timeseries.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\timeseries.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\timeseries_date.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\timeseries_date.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\timeseries_descendent.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\timeseries_descendent.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\timeseries_raw.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\timeseries_raw.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\tooltip_grouped.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\tooltip_grouped.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\tooltip_show.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\tooltip_show.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\zoom.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\zoom.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\zoom_category.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\zoom_category.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\zoom_onzoom.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\zoom_onzoom.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\zoom_reduction.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\htdocs\\samples\\zoom_reduction.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\package-lock.json",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\package-lock.json"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\c3-master\\package.json",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\c3-master\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\morrisjs\\.bower.json",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\morrisjs\\.bower.json"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\morrisjs\\bower.json",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\morrisjs\\bower.json"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\morrisjs\\bower.travis.json",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\morrisjs\\bower.travis.json"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\morrisjs\\examples\\_template.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\morrisjs\\examples\\_template.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\morrisjs\\examples\\area-as-line.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\morrisjs\\examples\\area-as-line.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\morrisjs\\examples\\area.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\morrisjs\\examples\\area.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\morrisjs\\examples\\bar-colors.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\morrisjs\\examples\\bar-colors.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\morrisjs\\examples\\bar-no-axes.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\morrisjs\\examples\\bar-no-axes.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\morrisjs\\examples\\bar.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\morrisjs\\examples\\bar.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\morrisjs\\examples\\days.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\morrisjs\\examples\\days.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\morrisjs\\examples\\decimal-custom-hover.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\morrisjs\\examples\\decimal-custom-hover.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\morrisjs\\examples\\diagonal-xlabels-bar.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\morrisjs\\examples\\diagonal-xlabels-bar.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\morrisjs\\examples\\diagonal-xlabels.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\morrisjs\\examples\\diagonal-xlabels.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\morrisjs\\examples\\donut-colors.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\morrisjs\\examples\\donut-colors.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\morrisjs\\examples\\donut-formatter.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\morrisjs\\examples\\donut-formatter.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\morrisjs\\examples\\donut.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\morrisjs\\examples\\donut.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\morrisjs\\examples\\dst.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\morrisjs\\examples\\dst.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\morrisjs\\examples\\events.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\morrisjs\\examples\\events.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\morrisjs\\examples\\goals.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\morrisjs\\examples\\goals.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\morrisjs\\examples\\lib\\example.css",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\morrisjs\\examples\\lib\\example.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\morrisjs\\examples\\months-no-smooth.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\morrisjs\\examples\\months-no-smooth.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\morrisjs\\examples\\negative.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\morrisjs\\examples\\negative.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\morrisjs\\examples\\no-grid.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\morrisjs\\examples\\no-grid.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\morrisjs\\examples\\non-continuous.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\morrisjs\\examples\\non-continuous.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\morrisjs\\examples\\non-date.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\morrisjs\\examples\\non-date.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\morrisjs\\examples\\quarters.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\morrisjs\\examples\\quarters.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\morrisjs\\examples\\resize.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\morrisjs\\examples\\resize.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\morrisjs\\examples\\stacked_bars.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\morrisjs\\examples\\stacked_bars.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\morrisjs\\examples\\timestamps.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\morrisjs\\examples\\timestamps.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\morrisjs\\examples\\updating.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\morrisjs\\examples\\updating.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\morrisjs\\examples\\weeks.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\morrisjs\\examples\\weeks.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\morrisjs\\examples\\years.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\morrisjs\\examples\\years.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\morrisjs\\morris.css",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\morrisjs\\morris.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\morrisjs\\package.json",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\morrisjs\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\morrisjs\\spec\\specs.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\morrisjs\\spec\\specs.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\morrisjs\\spec\\viz\\exemplary\\area0.png",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\morrisjs\\spec\\viz\\exemplary\\area0.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\morrisjs\\spec\\viz\\exemplary\\bar0.png",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\morrisjs\\spec\\viz\\exemplary\\bar0.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\morrisjs\\spec\\viz\\exemplary\\line0.png",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\morrisjs\\spec\\viz\\exemplary\\line0.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\morrisjs\\spec\\viz\\exemplary\\stacked_bar0.png",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\morrisjs\\spec\\viz\\exemplary\\stacked_bar0.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\morrisjs\\spec\\viz\\test.html",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\morrisjs\\spec\\viz\\test.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\perfect-scrollbar\\css\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\perfect-scrollbar\\css\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\perfect-scrollbar\\css\\perfect-scrollbar.min.css",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\perfect-scrollbar\\css\\perfect-scrollbar.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\raphael\\.bower.json",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\raphael\\.bower.json"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\raphael\\bower.json",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\raphael\\bower.json"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\node_modules\\raphael\\license.txt",
+      "PackagePath": "staticwebassets\\manage\\assets\\node_modules\\raphael\\license.txt"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\assets\\package.json",
+      "PackagePath": "staticwebassets\\manage\\assets\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\css\\animate.css",
+      "PackagePath": "staticwebassets\\manage\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\css\\colors\\default.css",
+      "PackagePath": "staticwebassets\\manage\\css\\colors\\default.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\css\\icons\\font-awesome\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\manage\\css\\icons\\font-awesome\\css\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\css\\icons\\font-awesome\\old\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\manage\\css\\icons\\font-awesome\\old\\css\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\css\\pages\\bootstrap-switch.css",
+      "PackagePath": "staticwebassets\\manage\\css\\pages\\bootstrap-switch.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\css\\pages\\breadcrumb-page.css",
+      "PackagePath": "staticwebassets\\manage\\css\\pages\\breadcrumb-page.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\css\\pages\\card-page.css",
+      "PackagePath": "staticwebassets\\manage\\css\\pages\\card-page.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\css\\pages\\chat-app-page.css",
+      "PackagePath": "staticwebassets\\manage\\css\\pages\\chat-app-page.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\css\\pages\\common.css",
+      "PackagePath": "staticwebassets\\manage\\css\\pages\\common.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\css\\pages\\contact-app-page.css",
+      "PackagePath": "staticwebassets\\manage\\css\\pages\\contact-app-page.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\css\\pages\\dashboard1.css",
+      "PackagePath": "staticwebassets\\manage\\css\\pages\\dashboard1.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\css\\pages\\easy-pie-chart.css",
+      "PackagePath": "staticwebassets\\manage\\css\\pages\\easy-pie-chart.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\css\\pages\\error-pages.css",
+      "PackagePath": "staticwebassets\\manage\\css\\pages\\error-pages.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\css\\pages\\file-upload.css",
+      "PackagePath": "staticwebassets\\manage\\css\\pages\\file-upload.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\css\\pages\\float-chart.css",
+      "PackagePath": "staticwebassets\\manage\\css\\pages\\float-chart.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\css\\pages\\floating-label.css",
+      "PackagePath": "staticwebassets\\manage\\css\\pages\\floating-label.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\css\\pages\\footable-page.css",
+      "PackagePath": "staticwebassets\\manage\\css\\pages\\footable-page.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\css\\pages\\form-icheck.css",
+      "PackagePath": "staticwebassets\\manage\\css\\pages\\form-icheck.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\css\\pages\\form-pages.css",
+      "PackagePath": "staticwebassets\\manage\\css\\pages\\form-pages.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\css\\pages\\google-vector-map.css",
+      "PackagePath": "staticwebassets\\manage\\css\\pages\\google-vector-map.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\css\\pages\\icon-page.css",
+      "PackagePath": "staticwebassets\\manage\\css\\pages\\icon-page.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\css\\pages\\inbox.css",
+      "PackagePath": "staticwebassets\\manage\\css\\pages\\inbox.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\css\\pages\\login-register-lock.css",
+      "PackagePath": "staticwebassets\\manage\\css\\pages\\login-register-lock.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\css\\pages\\other-pages.css",
+      "PackagePath": "staticwebassets\\manage\\css\\pages\\other-pages.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\css\\pages\\pages.css",
+      "PackagePath": "staticwebassets\\manage\\css\\pages\\pages.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\css\\pages\\pagination.css",
+      "PackagePath": "staticwebassets\\manage\\css\\pages\\pagination.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\css\\pages\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\manage\\css\\pages\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\css\\pages\\pricing-page.css",
+      "PackagePath": "staticwebassets\\manage\\css\\pages\\pricing-page.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\css\\pages\\progressbar-page.css",
+      "PackagePath": "staticwebassets\\manage\\css\\pages\\progressbar-page.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\css\\pages\\ribbon-page.css",
+      "PackagePath": "staticwebassets\\manage\\css\\pages\\ribbon-page.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\css\\pages\\stylish-tooltip.css",
+      "PackagePath": "staticwebassets\\manage\\css\\pages\\stylish-tooltip.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\css\\pages\\tab-page.css",
+      "PackagePath": "staticwebassets\\manage\\css\\pages\\tab-page.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\css\\pages\\table-pages.css",
+      "PackagePath": "staticwebassets\\manage\\css\\pages\\table-pages.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\css\\pages\\timeline-vertical-horizontal.css",
+      "PackagePath": "staticwebassets\\manage\\css\\pages\\timeline-vertical-horizontal.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\css\\pages\\ui-bootstrap-page.css",
+      "PackagePath": "staticwebassets\\manage\\css\\pages\\ui-bootstrap-page.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\css\\pages\\user-card.css",
+      "PackagePath": "staticwebassets\\manage\\css\\pages\\user-card.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\css\\pages\\widget-page.css",
+      "PackagePath": "staticwebassets\\manage\\css\\pages\\widget-page.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\css\\spinners.css",
+      "PackagePath": "staticwebassets\\manage\\css\\spinners.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\css\\style.css",
+      "PackagePath": "staticwebassets\\manage\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\js\\custom.js",
+      "PackagePath": "staticwebassets\\manage\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\js\\custom.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\custom.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\js\\dashboard1.js",
+      "PackagePath": "staticwebassets\\manage\\js\\dashboard1.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\js\\flot-data.js",
+      "PackagePath": "staticwebassets\\manage\\js\\flot-data.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\js\\jquery.slimscroll.js",
+      "PackagePath": "staticwebassets\\manage\\js\\jquery.slimscroll.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\js\\main.js",
+      "PackagePath": "staticwebassets\\manage\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\js\\perfect-scrollbar.jquery.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\perfect-scrollbar.jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\js\\prepros-6.config",
+      "PackagePath": "staticwebassets\\manage\\js\\prepros-6.config"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\js\\sidebarmenu.js",
+      "PackagePath": "staticwebassets\\manage\\js\\sidebarmenu.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\js\\waves.js",
+      "PackagePath": "staticwebassets\\manage\\js\\waves.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\main\\index.html",
+      "PackagePath": "staticwebassets\\manage\\main\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\app.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\app.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\colors\\default.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\colors\\default.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\grid.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\css\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\less\\animated.less",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\less\\animated.less"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\less\\bordered-pulled.less",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\less\\bordered-pulled.less"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\less\\core.less",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\less\\core.less"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\less\\fixed-width.less",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\less\\fixed-width.less"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\less\\font-awesome.less",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\less\\font-awesome.less"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\less\\icons.less",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\less\\icons.less"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\less\\larger.less",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\less\\larger.less"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\less\\list.less",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\less\\list.less"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\less\\mixins.less",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\less\\mixins.less"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\less\\path.less",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\less\\path.less"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\less\\rotated-flipped.less",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\less\\rotated-flipped.less"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\less\\screen-reader.less",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\less\\screen-reader.less"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\less\\stacked.less",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\less\\stacked.less"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\less\\variables.less",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\less\\variables.less"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\old\\.bower.json",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\old\\.bower.json"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\old\\.gitignore",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\old\\.gitignore"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\old\\.npmignore",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\old\\.npmignore"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\old\\HELP-US-OUT.txt",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\old\\HELP-US-OUT.txt"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\old\\bower.json",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\old\\bower.json"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\old\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\old\\css\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\old\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\old\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\old\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\old\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\old\\fonts\\fontawesome-webfont-old.ttf",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\old\\fonts\\fontawesome-webfont-old.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\old\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\old\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\old\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\old\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\old\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\old\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\old\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\old\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\old\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\old\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\old\\less\\animated.less",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\old\\less\\animated.less"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\old\\less\\bordered-pulled.less",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\old\\less\\bordered-pulled.less"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\old\\less\\core.less",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\old\\less\\core.less"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\old\\less\\extras.less",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\old\\less\\extras.less"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\old\\less\\fixed-width.less",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\old\\less\\fixed-width.less"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\old\\less\\font-awesome.less",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\old\\less\\font-awesome.less"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\old\\less\\icons.less",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\old\\less\\icons.less"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\old\\less\\larger.less",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\old\\less\\larger.less"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\old\\less\\list.less",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\old\\less\\list.less"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\old\\less\\mixins.less",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\old\\less\\mixins.less"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\old\\less\\path.less",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\old\\less\\path.less"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\old\\less\\rotated-flipped.less",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\old\\less\\rotated-flipped.less"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\old\\less\\spinning.less",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\old\\less\\spinning.less"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\old\\less\\stacked.less",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\old\\less\\stacked.less"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\old\\less\\variables.less",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\old\\less\\variables.less"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\old\\scss\\_animated.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\old\\scss\\_animated.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\old\\scss\\_bordered-pulled.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\old\\scss\\_bordered-pulled.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\old\\scss\\_core.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\old\\scss\\_core.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\old\\scss\\_extras.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\old\\scss\\_extras.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\old\\scss\\_fixed-width.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\old\\scss\\_fixed-width.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\old\\scss\\_icons.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\old\\scss\\_icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\old\\scss\\_larger.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\old\\scss\\_larger.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\old\\scss\\_list.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\old\\scss\\_list.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\old\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\old\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\old\\scss\\_path.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\old\\scss\\_path.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\old\\scss\\_rotated-flipped.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\old\\scss\\_rotated-flipped.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\old\\scss\\_spinning.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\old\\scss\\_spinning.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\old\\scss\\_stacked.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\old\\scss\\_stacked.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\old\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\old\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\old\\scss\\font-awesome.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\old\\scss\\font-awesome.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\scss\\_animated.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\scss\\_animated.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\scss\\_bordered-pulled.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\scss\\_bordered-pulled.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\scss\\_core.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\scss\\_core.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\scss\\_fixed-width.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\scss\\_fixed-width.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\scss\\_icons.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\scss\\_icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\scss\\_larger.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\scss\\_larger.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\scss\\_list.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\scss\\_list.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\scss\\_path.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\scss\\_path.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\scss\\_rotated-flipped.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\scss\\_rotated-flipped.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\scss\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\scss\\_screen-reader.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\scss\\_stacked.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\scss\\_stacked.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\icons\\font-awesome\\scss\\font-awesome.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons\\font-awesome\\scss\\font-awesome.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\pages\\bootstrap-switch.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\pages\\bootstrap-switch.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\pages\\breadcrumb-page.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\pages\\breadcrumb-page.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\pages\\button-page.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\pages\\button-page.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\pages\\card-page.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\pages\\card-page.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\pages\\chat-app-page.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\pages\\chat-app-page.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\pages\\common.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\pages\\common.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\pages\\contact-app-page.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\pages\\contact-app-page.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\pages\\dashboard1.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\pages\\dashboard1.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\pages\\easy-pie-chart.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\pages\\easy-pie-chart.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\pages\\error-pages.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\pages\\error-pages.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\pages\\file-upload.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\pages\\file-upload.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\pages\\float-chart.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\pages\\float-chart.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\pages\\floating-label.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\pages\\floating-label.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\pages\\footable-page.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\pages\\footable-page.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\pages\\form-icheck.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\pages\\form-icheck.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\pages\\form-pages.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\pages\\form-pages.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\pages\\google-vector-map.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\pages\\google-vector-map.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\pages\\icon-page.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\pages\\icon-page.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\pages\\other-pages.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\pages\\other-pages.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\pages\\pages.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\pages\\pages.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\pages\\pagination.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\pages\\pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\pages\\perfect-scrollbar.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\pages\\perfect-scrollbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\pages\\pricing-page.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\pages\\pricing-page.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\pages\\stylish-tooltip.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\pages\\stylish-tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\pages\\table-pages.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\pages\\table-pages.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\prepros-6.config",
+      "PackagePath": "staticwebassets\\manage\\scss\\prepros-6.config"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\responsive.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\responsive.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\sidebar.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\sidebar.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\variable.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\variable.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\widgets\\activity.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\widgets\\activity.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\widgets\\blog.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\widgets\\blog.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\widgets\\calendar.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\widgets\\calendar.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\widgets\\carousel.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\widgets\\carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\widgets\\chat-widget.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\widgets\\chat-widget.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\widgets\\comment.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\widgets\\comment.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\widgets\\common-widget.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\widgets\\common-widget.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\widgets\\contact.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\widgets\\contact.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\widgets\\feed.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\widgets\\feed.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\widgets\\msg-box.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\widgets\\msg-box.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\widgets\\product-review.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\widgets\\product-review.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\widgets\\profile.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\widgets\\profile.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\widgets\\social.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\widgets\\social.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\widgets\\steamline.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\widgets\\steamline.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\widgets\\to-do.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\widgets\\to-do.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\widgets\\topbar-mail.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\widgets\\topbar-mail.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\widgets\\weather-widget.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\widgets\\weather-widget.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\manage\\scss\\widgets\\widgets.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\widgets\\widgets.scss"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.NewsWebsite.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.NewsWebsite.props",
+      "PackagePath": "build\\NewsWebsite.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.NewsWebsite.props",
+      "PackagePath": "buildMultiTargeting\\NewsWebsite.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.NewsWebsite.props",
+      "PackagePath": "buildTransitive\\NewsWebsite.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
