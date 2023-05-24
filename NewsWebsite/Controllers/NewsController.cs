@@ -22,40 +22,40 @@ namespace NewsWebsite.Controllers
 
         }
 
-        //public async Task<IActionResult> Detail(int id)
-        //{
-        //    Information information = _context.Informations
-        //        .Include(x => x.Categories)
-        //        .Include(x => x.Authors)
-        //        .Include(x => x.InformationImages)
-        //        .FirstOrDefault(x => x.Id == id);
-
-        //    if (information == null)
-        //    {
-        //        TempData["error"] = "Xəbər yoxdur";
-        //        return RedirectToAction("index", "home");
-        //    }
-
-        //    NewsDetailViewModel detailVM = new NewsDetailViewModel
-        //    {
-        //        Information = information,
-        //        Informations = _context.Informations.Include(x => x.Categories).Include(x => x.Authors).Include(x => x.InformationImages).Take(3).ToList(),
-        //        RelatedInformations = _context.Informations.Include(x => x.Categories)
-        //       .Include(x => x.Authors)
-        //       .Include(x => x.InformationImages)
-        //       .Where(x => x.Categories == information.Categories)
-        //       .Take(6).ToList(),
-        //    };
-
-        //    if (information == null)
-        //        return NotFound();
-
-        //    return View(detailVM);
-        //}
-
-        public IActionResult Detail()
+        public async Task<IActionResult> Detail(int id)
         {
-            return View();
+            Information information = _context.Informations
+                .Include(x => x.Categories)
+                .Include(x => x.Authors)
+                .Include(x => x.InformationImages)
+                .FirstOrDefault(x => x.Id == id);
+
+            if (information == null)
+            {
+                TempData["error"] = "Xəbər yoxdur";
+                return RedirectToAction("index", "home");
+            }
+
+            NewsDetailViewModel detailVM = new NewsDetailViewModel
+            {
+                Information = information,
+                Informations = _context.Informations.Include(x => x.Categories).Include(x => x.Authors).Include(x => x.InformationImages).Take(3).ToList(),
+                RelatedInformations = _context.Informations.Include(x => x.Categories)
+               .Include(x => x.Authors)
+               .Include(x => x.InformationImages)
+               .Where(x => x.Categories == information.Categories)
+               .Take(6).ToList(),
+            };
+
+            if (information == null)
+                return NotFound();
+
+            return View(detailVM);
         }
+
+        //public IActionResult Detail()
+        //{
+        //    return View();
+        //}
     }
 }

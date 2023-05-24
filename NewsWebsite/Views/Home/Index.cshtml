@@ -59,102 +59,24 @@
         <div class="container__latest__news">
             <div class="row">
                 <h3 class="block__title"><span>Latest News</span></h3>
-                <div class="col-lg-3 mb-4">
-                    <div class="position-relative" style="overflow: hidden; border-radius: 4px;">
-                        <div class="latest__content"><img src="~/Images/latest_news/game1.jpg" class="news__img"></div>
+                  @foreach (var informations in Model.Informations)
+                    {
+                        if(informations.Status == true)
+                        {
+                    <div class="col-lg-3 mb-4">
+                        <div class="position-relative" style="overflow: hidden; border-radius: 4px;">
+                        <div class="latest__content"><img src="~/uploads/informations/@informations.InformationImages.FirstOrDefault(x=>x.PosterStatus==true)?.Image" class="news__img"></div>
                         <div class="position__badge">
-                            <a href="#" class="post__badge">Health</a>
+                            <a href="#" class="post__badge">@informations.Categories.Name</a>
                         </div>
-                        <span class="post__author"><i class="fa-solid fa-user"></i> <a href="#"> John Wick</a></span>
+                        <span class="post__author"><i class="fa-solid fa-user"></i> <a href="#"> @informations.Authors.FullName</a></span>
                     </div>
-                    <h2><a href="#" class="post__title">Zhang social media pop also known when smart innocent...</a></h2>
-                    <span class="post__date"><i class="fa-solid fa-clock"></i> <a href="#"> 20 Jan, 2022</a></span>
+                    <h2><a asp-controller="news" asp-action="detail" asp-route-id="@informations.Id" class="post__title">@informations.Title</a></h2>
+                    <span class="post__date"><i class="fa-solid fa-clock"></i> <a href="#"> @informations.CreatedAt.ToString("dd MMMM, yyyy")</a></span>
                     <span class="post__view"><i class="fa-solid fa-eye"></i> <a href="#"> 5K View</a></span>
                 </div>
-                <div class="col-lg-3 mb-4">
-                    <div class="position-relative" style="overflow: hidden; border-radius: 4px;">
-                        <div class="latest__content"><img src="~/Images/latest_news/architecture3.jpg" class="news__img"></div>
-                        <div class="position__badge">
-                            <a href="#" class="post__badge">Architecture</a>
-                        </div>
-                        <span class="post__author"><i class="fa-solid fa-user"></i> <a href="#"> John Wick</a></span>
-                    </div>
-                    <h2><a href="#" class="post__title">Zhang social media pop also known when smart innocent...</a></h2>
-                    <span class="post__date"><i class="fa-solid fa-clock"></i> <a href="#"> 20 Jan, 2022</a></span>
-                    <span class="post__view"><i class="fa-solid fa-eye"></i> <a href="#"> 5K View</a></span>
-                </div>
-                <div class="col-lg-3 mb-4">
-                    <div class="position-relative" style="overflow: hidden; border-radius: 4px;">
-                        <div class="latest__content"><img src="~/Images/latest_news/food3.jpg" class="news__img"></div>
-                        <div class="position__badge">
-                            <a href="#" class="post__badge">Food</a>
-                        </div>
-                        <span class="post__author"><i class="fa-solid fa-user"></i> <a href="#"> John Wick</a></span>
-                    </div>
-                    <h2><a href="#" class="post__title">Zhang social media pop also known when smart innocent...</a></h2>
-                    <span class="post__date"><i class="fa-solid fa-clock"></i> <a href="#"> 20 Jan, 2022</a></span>
-                    <span class="post__view"><i class="fa-solid fa-eye"></i> <a href="#"> 5K View</a></span>
-                </div>
-                <div class="col-lg-3 mb-4">
-                    <div class="position-relative" style="overflow: hidden; border-radius: 4px;">
-                        <div class="latest__content"><img src="~/Images/latest_news/gadget2.jpg" class="news__img"></div>
-                        <div class="position__badge">
-                            <a href="#" class="post__badge">Gadget</a>
-                        </div>
-                        <span class="post__author"><i class="fa-solid fa-user"></i> <a href="#"> John Wick</a></span>
-                    </div>
-                    <h2><a href="#" class="post__title">Zhang social media pop also known when smart innocent...</a></h2>
-                    <span class="post__date"><i class="fa-solid fa-clock"></i> <a href="#"> 20 Jan, 2022</a></span>
-                    <span class="post__view"><i class="fa-solid fa-eye"></i> <a href="#"> 5K View</a></span>
-                </div>
-                <div class="col-lg-3 mb-4">
-                    <div class="position-relative" style="overflow: hidden; border-radius: 4px;">
-                        <div class="latest__content"><img src="~/Images/latest_news/health5.jpg" class="news__img"></div>
-                        <div class="position__badge">
-                            <a href="#" class="post__badge">Health</a>
-                        </div>
-                        <span class="post__author"><i class="fa-solid fa-user"></i> <a href="#"> John Wick</a></span>
-                    </div>
-                    <h2><a href="#" class="post__title">Zhang social media pop also known when smart innocent...</a></h2>
-                    <span class="post__date"><i class="fa-solid fa-clock"></i> <a href="#"> 20 Jan, 2022</a></span>
-                    <span class="post__view"><i class="fa-solid fa-eye"></i> <a href="#"> 5K View</a></span>
-                </div>
-                <div class="col-lg-3 mb-4">
-                    <div class="position-relative" style="overflow: hidden; border-radius: 4px;">
-                        <div class="latest__content"><img src="~/Images/latest_news/health4.jpg" class="news__img"></div>
-                        <div class="position__badge">
-                            <a href="#" class="post__badge">Health</a>
-                        </div>
-                        <span class="post__author"><i class="fa-solid fa-user"></i> <a href="#"> John Wick</a></span>
-                    </div>
-                    <h2><a href="#" class="post__title">Zhang social media pop also known when smart innocent...</a></h2>
-                    <span class="post__date"><i class="fa-solid fa-clock"></i> <a href="#"> 20 Jan, 2022</a></span>
-                    <span class="post__view"><i class="fa-solid fa-eye"></i> <a href="#"> 5K View</a></span>
-                </div>
-                <div class="col-lg-3 mb-4">
-                    <div class="position-relative" style="overflow: hidden; border-radius: 4px;">
-                        <div class="latest__content"><img src="~/Images/latest_news/travel4.jpg" class="news__img"></div>
-                        <div class="position__badge">
-                            <a href="#" class="post__badge">Travel</a>
-                        </div>
-                        <span class="post__author"><i class="fa-solid fa-user"></i> <a href="#"> John Wick</a></span>
-                    </div>
-                    <h2><a href="#" class="post__title">Zhang social media pop also known when smart innocent...</a></h2>
-                    <span class="post__date"><i class="fa-solid fa-clock"></i> <a href="#"> 20 Jan, 2022</a></span>
-                    <span class="post__view"><i class="fa-solid fa-eye"></i> <a href="#"> 5K View</a></span>
-                </div>
-                <div class="col-lg-3 mb-4">
-                    <div class="position-relative" style="overflow: hidden; border-radius: 4px;">
-                        <div class="latest__content"><img src="~/Images/latest_news/travel5.jpg" class="news__img"></div>
-                        <div class="position__badge">
-                            <a href="#" class="post__badge">Travel</a>
-                        </div>
-                        <span class="post__author"><i class="fa-solid fa-user"></i> <a href="#"> John Wick</a></span>
-                    </div>
-                    <h2><a href="#" class="post__title">Zhang social media pop also known when smart innocent...</a></h2>
-                    <span class="post__date"><i class="fa-solid fa-clock"></i> <a href="#"> 20 Jan, 2022</a></span>
-                    <span class="post__view"><i class="fa-solid fa-eye"></i> <a href="#"> 5K View</a></span>
-                </div>
+                        }
+                }
             </div>
         </div>
     </section>

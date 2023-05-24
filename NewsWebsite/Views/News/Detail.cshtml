@@ -5,20 +5,21 @@
         <div class="row">
             <div class="col-lg-8">
                 <div class="post__header">
-                    <h1 class="title mb-4">3 Easy Ways To Make Your iPhone Faster</h1>
-                    <span><a href="#"><i class="fa-solid fa-user"></i> Katen Doe</a></span>
-                    <span><a href="#"><i class="fa-solid fa-filter"></i> Travel</a></span>
-                    <span><i class="fa-solid fa-clock"></i> 29 March 2021</span>
+                    <h1 class="title mb-4">@Model.Information.Title</h1>
+                    <span><a href="#"><i class="fa-solid fa-user"></i> @Model.Information.Authors.FullName</a></span>
+                    <span><a href="#"><i class="fa-solid fa-filter"></i> @Model.Information.Categories.Name</a></span>
+                    <span><i class="fa-solid fa-clock"></i> @Model.Information.CreatedAt.ToString("dd MMMM, yyyy")</span>
                     <span><i class="fa-solid fa-eye"></i> 5k View</span>
                 </div>
+                  @foreach (var images in Model.Information.InformationImages.Take(1))
+                     {
                 <div class="featured__image">
-                    <img src="~/Images/img_detail/featured-lg.jpg" alt="post__title">
+                    <img src="~/uploads/informations/@images.Image" alt="post__title">
                 </div>
+                     }
                 <div class="post__content">
                     <p>
-                        The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words.
-                        Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators. To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words. The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable. One could refuse to pay expensive translators. To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words.
-                        If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages. The new common language will be more simple and regular than the existing European languages. It will be as simple as Occidental; in fact, it will be Occidental.
+                        @Model.Information.Description
                     </p>
                 </div>
                 <main class="main">
@@ -251,18 +252,21 @@
             <h3 class="block__title mt-4"><span>Related News</span></h3>
             <div class="swiper reveal">
                 <div class="swiper-wrapper">
+                     @foreach (var relatedinformations in Model.RelatedInformations)
+                     {
                     <div class="swiper-slide">
                         <div class="position-relative" style="overflow: hidden; border-radius: 4px;">
-                            <div class="related__content"><img src="~/Images/lifestyle_news/health1.jpg" class="news__img"></div>
+                                <div class="related__content"><img src="~/uploads/informations/@relatedinformations.InformationImages.FirstOrDefault(x=>x.PosterStatus==true)?.Image" class="news__img"></div>
                             <div class="position__badge">
-                                <a href="#" class="post__badge">Health</a>
+                                    <a href="#" class="post__badge">@relatedinformations.Categories.Name</a>
                             </div>
-                            <span class="post__author"><i class="fa-solid fa-user"></i> <a href="#"> John Wick</a></span>
+                                <span class="post__author"><i class="fa-solid fa-user"></i> <a href="#"> @relatedinformations.Authors.FullName</a></span>
                         </div>
-                        <h2><a href="#" class="post__title">Zhang social media pop also known when smart innocent...</a></h2>
-                        <span class="post__date"><i class="fa-solid fa-clock"></i> <a href="#"> 20 Jan, 2022</a></span>
+                        <h2><a href="#" class="post__title">@relatedinformations.Title</a></h2>
+                            <span class="post__date"><i class="fa-solid fa-clock"></i> <a href="#"> @relatedinformations.CreatedAt.ToString("dd MMMM, yyyy")</a></span>
                         <span class="post__view"><i class="fa-solid fa-eye"></i> <a href="#"> 5K View</a></span>
                     </div>
+                    }
                     <div class="swiper-slide">
                         <div class="position-relative" style="overflow: hidden; border-radius: 4px;">
                             <div class="related__content"><img src="~/Images/trending_news/health5.jpg" class="news__img"></div>

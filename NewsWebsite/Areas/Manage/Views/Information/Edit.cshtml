@@ -36,19 +36,19 @@
                         <label asp-for="PosterFile">PosterFile</label>
                         <input asp-for="PosterFile" class="form-control">
                         <span class="text-danger" asp-validation-for="PosterFile"></span>
-                        <img width="200" height="150" src="~/uploads/Foods/@Model.InformationImages.FirstOrDefault(x=>x.PosterStatus==true)?.Image" />
+                        <img width="200" height="150" src="~/uploads/informations/@Model.InformationImages.FirstOrDefault(x=>x.PosterStatus==true)?.Image" />
                     </div>
                     <div class="form-group">
                         <label asp-for="ImageFiles">ImageFiles</label>
                         <input asp-for="ImageFiles" class="form-control">
                         <span class="text-danger" asp-validation-for="ImageFiles"></span>
                         <div class="d-flex mt-3">
-                            @foreach (var foodImg in Model.InformationImages.Where(x => x.PosterStatus == null).ToList())
+                            @foreach (var informationImg in Model.InformationImages.Where(x => x.PosterStatus == null).ToList())
                             {
                                 <div class="img-box mx-1">
                                     <span class="delete-item" style="font-size:18px; border-radius:50%;background-color:orangered;padding:5px;color:white;cursor:pointer;">x</span>
-                                    <img width="200" height="150" src="~/uploads/Foods/@foodImg.Image" />
-                                    <input type="hidden" name="FoodImageIds" value="@foodImg.Id">
+                                    <img width="200" height="150" src="~/uploads/informations/@informationImg.Image" />
+                                    <input type="hidden" name="FoodImageIds" value="@informationImg.Id">
                                 </div>
                             }
                         </div>

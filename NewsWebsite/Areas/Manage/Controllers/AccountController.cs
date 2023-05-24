@@ -51,6 +51,21 @@ namespace NewsWebsite.Areas.Manage.Controllers
             return Ok();
         }
 
+        public async Task<IActionResult> CreateModerator()
+        {
+            AppUser admin = new AppUser
+            {
+                UserName = "Yusuf_Moderator",
+                FullName = "Yusuf Huseynzada",
+            };
+
+            await _userManager.CreateAsync(admin, "Yusif12345");
+
+            await _userManager.AddToRoleAsync(admin, "Moderator");
+
+            return Ok();
+        }
+
         [HttpPost]
         public async Task<IActionResult> Login(AdminLoginViewModel loginVM, string returnUrl)
         {

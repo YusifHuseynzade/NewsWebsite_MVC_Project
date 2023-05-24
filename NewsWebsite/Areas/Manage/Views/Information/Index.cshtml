@@ -25,6 +25,7 @@
                     <th scope="col">Author</th>
                     <th scope="col">Category</th>
                     <th scope="col">Image</th>
+                    <th scope="col">Status</th>
                     <th scope="col">Actions</th>
                 </tr>
             </thead>
@@ -38,7 +39,17 @@
                         <td>@item.Title</td>
                          <td>@item.Authors.FullName</td>
                         <td>@item.Categories.Name</td>
-                        <td><img width="120px" height="80px" style="border-radius: 8px;" src="~/uploads/foods/@item.InformationImages.FirstOrDefault(x=>x.PosterStatus==true)?.Image"/></td>
+                        <td><img width="120px" height="80px" style="border-radius: 8px;" src="~/uploads/informations/@item.InformationImages.FirstOrDefault(x=>x.PosterStatus==true)?.Image"/></td>
+                        <td>
+                            @if (item.Status == true)
+                            {
+                                <form method="post" asp-action="accept" asp-route-id="@item.Id"><button class="btn btn-success" type="submit">Accept</button></form>
+                            }
+                            else
+                            {
+                                <form method="post" asp-action="reject" asp-route-id="@item.Id"><button class="btn btn-warning" type="submit">Reject</button></form>
+                            }
+                        </td>
                         <td>
                             <a class="btn btn-info" asp-action="edit" asp-route-id="@item.Id"><i class="fa-solid fa-pen-to-square mx-1"></i>Edit</a>
                             <a class="btn btn-danger trash-btn" asp-action="delete" asp-route-id="@item.Id"><i class="fa-solid fa-trash mx-1"></i>Delete</a>

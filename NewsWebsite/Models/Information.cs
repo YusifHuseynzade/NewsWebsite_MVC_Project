@@ -2,6 +2,8 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
+
+
 namespace NewsWebsite.Models
 {
     public class Information
@@ -10,11 +12,9 @@ namespace NewsWebsite.Models
         public int AuthorId { get; set; }
         public int Id { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow.AddHours(4);
-        [MaxLength(50)]
-        public string Name { get; set; }
-        [MaxLength(150)]
-        public string? Title { get; set; }
         [MaxLength(250)]
+        public string? Title { get; set; }
+        [MaxLength(1500)]
         public string? Description { get; set; }
         public bool IsTravel { get; set; }
         public bool IsHealth { get; set; }
@@ -34,5 +34,8 @@ namespace NewsWebsite.Models
         public Category? Categories { get; set; }
         public Author? Authors { get; set; }
         public List<InformationImage>? InformationImages { get; set; }
+        public bool Status { get; set; }
+
+
     }
 }

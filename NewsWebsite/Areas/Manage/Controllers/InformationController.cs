@@ -178,7 +178,6 @@ namespace NewsWebsite.Areas.Manage.Controllers
 
             existInformation.CategoryId = information.CategoryId;
             existInformation.AuthorId = information.AuthorId;
-            existInformation.Name = information.Name;
             existInformation.Title = information.Title;
             existInformation.Description = information.Description;
 
@@ -207,6 +206,51 @@ namespace NewsWebsite.Areas.Manage.Controllers
 
             _context.Informations.Remove(information);
             _context.SaveChanges();
+            return RedirectToAction("index");
+        }
+
+        [HttpPost]
+       
+        public IActionResult Accept(int id)
+        {
+            if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+            {
+                Information information = _context.Informations.Include(x => x.InformationImages).FirstOrDefault(x => x.Id == id);
+
+                if (information == null)
+                    return RedirectToAction("error", "dashboard");
+
+                information.Status = false;
+
+                _context.SaveChanges();
+            }
+            else
+            {
+                return RedirectToAction("login", "account");
+            }
+            return RedirectToAction("index");
+
+           
+        }
+
+        [HttpPost]
+        public IActionResult Reject(int id)
+        {
+            if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+            {
+                Information information = _context.Informations.Include(x => x.InformationImages).FirstOrDefault(x => x.Id == id);
+
+            if (information == null)
+                return RedirectToAction("error", "dashboard");
+
+            information.Status = true;
+
+            _context.SaveChanges();
+            }
+            else
+            {
+                return RedirectToAction("login", "account");
+            }
             return RedirectToAction("index");
         }
     }

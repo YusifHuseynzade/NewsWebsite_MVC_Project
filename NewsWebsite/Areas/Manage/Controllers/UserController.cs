@@ -36,7 +36,7 @@ namespace NewsWebsite.Areas.Manage.Controllers
         }
 
 
-        [Authorize(Roles = "SuperAdmin")]
+        [Authorize(Roles = "Admin")]
         public IActionResult Create()
         {
             ViewBag.Roles = _roleManager.Roles.ToList();
@@ -44,7 +44,7 @@ namespace NewsWebsite.Areas.Manage.Controllers
         }
 
         [HttpPost]
-        [Authorize(Roles = "SuperAdmin")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Create(AdminCreateViewModel createdAdminAndMember)
         {
             if (!ModelState.IsValid)
@@ -99,7 +99,7 @@ namespace NewsWebsite.Areas.Manage.Controllers
             return RedirectToAction("index", "user");
         }
 
-        [Authorize(Roles = "SuperAdmin")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(string userId)
         {
             var user = await _userManager.FindByIdAsync(userId);
