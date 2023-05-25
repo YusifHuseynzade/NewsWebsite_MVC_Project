@@ -39,6 +39,7 @@ namespace NewsWebsite.Controllers
             };
             return View(viewModel);
         }
+
         //public IActionResult Index()
         //{
         //    return View();

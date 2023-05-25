@@ -25,7 +25,7 @@
                     <th scope="col">Author</th>
                     <th scope="col">Category</th>
                     <th scope="col">Image</th>
-                    <th scope="col">Status</th>
+                    <th scope="col">Status (Only Admin)</th>
                     <th scope="col">Actions</th>
                 </tr>
             </thead>
@@ -43,11 +43,11 @@
                         <td>
                             @if (item.Status == true)
                             {
-                                <form method="post" asp-action="accept" asp-route-id="@item.Id"><button class="btn btn-success" type="submit">Accept</button></form>
+                                <form method="post" asp-action="accept" asp-route-id="@item.Id"><button class="btn btn-success" type="submit">Active</button></form>
                             }
                             else
                             {
-                                <form method="post" asp-action="reject" asp-route-id="@item.Id"><button class="btn btn-warning" type="submit">Reject</button></form>
+                                <form method="post" asp-action="reject" asp-route-id="@item.Id"><button class="btn btn-warning" type="submit">Disable</button></form>
                             }
                         </td>
                         <td>

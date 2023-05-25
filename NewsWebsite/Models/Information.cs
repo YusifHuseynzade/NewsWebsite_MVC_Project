@@ -10,6 +10,7 @@ namespace NewsWebsite.Models
     {
         public int CategoryId { get; set; }
         public int AuthorId { get; set; }
+        public long View { get; set; }
         public int Id { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow.AddHours(4);
         [MaxLength(250)]

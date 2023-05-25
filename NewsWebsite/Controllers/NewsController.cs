@@ -18,10 +18,7 @@ namespace NewsWebsite.Controllers
         public NewsController(KatenDbContext context)
         {
             _context = context;
-            
-
         }
-
         public async Task<IActionResult> Detail(int id)
         {
             Information information = _context.Informations
@@ -29,6 +26,23 @@ namespace NewsWebsite.Controllers
                 .Include(x => x.Authors)
                 .Include(x => x.InformationImages)
                 .FirstOrDefault(x => x.Id == id);
+
+            if (information.View == null)
+            {
+                information = new Information
+                {
+                    Id = id,
+                    View = 1
+
+                };
+                _context.Informations.Add(information);
+            }
+            else
+            {
+                information.View++;
+            }
+
+            _context.SaveChanges();
 
             if (information == null)
             {

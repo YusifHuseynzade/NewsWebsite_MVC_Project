@@ -9,7 +9,7 @@
                     <span><a href="#"><i class="fa-solid fa-user"></i> @Model.Information.Authors.FullName</a></span>
                     <span><a href="#"><i class="fa-solid fa-filter"></i> @Model.Information.Categories.Name</a></span>
                     <span><i class="fa-solid fa-clock"></i> @Model.Information.CreatedAt.ToString("dd MMMM, yyyy")</span>
-                    <span><i class="fa-solid fa-eye"></i> 5k View</span>
+                    <span><i class="fa-solid fa-eye"></i> @Model.Information.View</span>
                 </div>
                   @foreach (var images in Model.Information.InformationImages.Take(1))
                      {
@@ -264,7 +264,7 @@
                         </div>
                         <h2><a href="#" class="post__title">@relatedinformations.Title</a></h2>
                             <span class="post__date"><i class="fa-solid fa-clock"></i> <a href="#"> @relatedinformations.CreatedAt.ToString("dd MMMM, yyyy")</a></span>
-                        <span class="post__view"><i class="fa-solid fa-eye"></i> <a href="#"> 5K View</a></span>
+                            <span class="post__view"><i class="fa-solid fa-eye"></i> <a href="#"> @relatedinformations.View</a></span>
                     </div>
                     }
                     <div class="swiper-slide">

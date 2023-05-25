@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lYAwzbN6bXIE0QxjIUGh9FEvI4qP3N59gpMThEZx0Vo=",
+  "Hash": "steB3GS0H+0AfYfj9LK9syH2OdAHRjVLLtRpjQjcdsw=",
   "Source": "NewsWebsite",
   "BasePath": "_content/NewsWebsite",
   "Mode": "Default",
@@ -7548,23 +7548,6 @@
       "OriginalItemSpec": "wwwroot\\uploads\\informations\\047fe25b-b462-40cd-8aa5-340c91394bbehealth2.jpg"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\uploads\\informations\\0816a1b0-ee80-4409-bc35-c65a41a53d6aarchitecture2.jpg",
-      "SourceId": "NewsWebsite",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\",
-      "BasePath": "_content/NewsWebsite",
-      "RelativePath": "uploads/informations/0816a1b0-ee80-4409-bc35-c65a41a53d6aarchitecture2.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\informations\\0816a1b0-ee80-4409-bc35-c65a41a53d6aarchitecture2.jpg"
-    },
-    {
       "Identity": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\uploads\\informations\\0a429e42-1136-4071-99e0-8fd6d0cc2d9btravel2.jpg",
       "SourceId": "NewsWebsite",
       "SourceType": "Discovered",
@@ -8073,40 +8056,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\informations\\8f2ffe20-97b3-4844-bac8-a58badc087a5health4.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\uploads\\informations\\904cad63-a329-450a-b96d-4b00bf7d08e8food2.jpg",
-      "SourceId": "NewsWebsite",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\",
-      "BasePath": "_content/NewsWebsite",
-      "RelativePath": "uploads/informations/904cad63-a329-450a-b96d-4b00bf7d08e8food2.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\informations\\904cad63-a329-450a-b96d-4b00bf7d08e8food2.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\uploads\\informations\\a1a937d9-6e52-42ea-80e5-0b5d491233f4health2.jpg",
-      "SourceId": "NewsWebsite",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\",
-      "BasePath": "_content/NewsWebsite",
-      "RelativePath": "uploads/informations/a1a937d9-6e52-42ea-80e5-0b5d491233f4health2.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\informations\\a1a937d9-6e52-42ea-80e5-0b5d491233f4health2.jpg"
     },
     {
       "Identity": "C:\\Users\\DELL\\Desktop\\NewsWebsite\\NewsWebsite\\wwwroot\\uploads\\informations\\a3338ed8-fd02-49dc-a4bb-f7522604a753gadget4.jpg",

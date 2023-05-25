@@ -99,14 +99,13 @@ namespace NewsWebsite.Areas.Manage.Controllers
             return RedirectToAction("index", "user");
         }
 
-        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(string userId)
         {
-            var user = await _userManager.FindByIdAsync(userId);
+                var user = await _userManager.FindByIdAsync(userId);
 
-            if (user == null)
-                return NotFound();
-            await _userManager.DeleteAsync(user);
+                if (user == null)
+                    return NotFound();
+                await _userManager.DeleteAsync(user);
 
             return RedirectToAction("index", "user");
 

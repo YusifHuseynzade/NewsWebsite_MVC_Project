@@ -71,9 +71,9 @@
                         </div>
                         <span class="post__author"><i class="fa-solid fa-user"></i> <a href="#"> @informations.Authors.FullName</a></span>
                     </div>
-                    <h2><a asp-controller="news" asp-action="detail" asp-route-id="@informations.Id" class="post__title">@informations.Title</a></h2>
-                    <span class="post__date"><i class="fa-solid fa-clock"></i> <a href="#"> @informations.CreatedAt.ToString("dd MMMM, yyyy")</a></span>
-                    <span class="post__view"><i class="fa-solid fa-eye"></i> <a href="#"> 5K View</a></span>
+                        <h2><a asp-action="detail" asp-controller="news" asp-route-id="@informations.Id" class="post__title">@informations.Title</a></h2>
+                    <span class="post__date"><i class="fa-solid fa-clock"></i> <a> @informations.CreatedAt.ToString("dd MMMM, yyyy")</a></span>
+                    <span class="post__view"><i class="fa-solid fa-eye"></i> <a href="#"> @informations.View</a></span>
                 </div>
                         }
                 }
